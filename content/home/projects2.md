@@ -7,9 +7,9 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 50
+weight: 60
 
-title: Research (Methodology)
+title: Research (Collaborative)
 subtitle: ''
 
 content:
@@ -27,11 +27,15 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Feature Selection
-    tag: regularization
-  - name: Computational Statistics
-    tag: comp
-
+  - name: COVID-19
+    tag: covid19
+  - name: Cancer
+    tag: cancer
+  - name: Cardiovascular
+    tag: card
+  - name: Other
+    tag: demo
+ 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
   columns: '2'
